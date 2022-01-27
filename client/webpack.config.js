@@ -41,6 +41,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dev'),
     historyApiFallback: true,
+        host: '0.0.0.0',
     hot: true,
   },
   plugins: [
